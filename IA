@@ -1,5 +1,20 @@
-## Fundamentos da IA
+# Fundamentos da IA
 
 Machine Learning
 
-O aprendizado de máquina (em inglês, machine learning) é um método de análise de dados que automatiza a construção de modelos analíticos. É um ramo da inteligência artificial baseado na ideia de que sistemas podem aprender com dados, identificar padrões e tomar decisões com o mínimo de intervenção humana.
+O aprendizado de máquina (em inglês, machine learning) é um método de análise de dados que automatiza a construção de modelos analíticos. 
+É um ramo da inteligência artificial baseado na ideia de que sistemas podem aprender com dados, identificar padrões e tomar decisões com o mínimo de intervenção humana.
+
+## Evolução do machine learning
+
+Graças às novas tecnologias computacionais, o machine learning de hoje não é como o machine learning do passado.
+Ele nasceu do reconhecimento de padrões e da teoria de que computadores podem aprender sem serem programados para realizar tarefas específicas; 
+pesquisadores interessados em inteligência artificial queriam saber se as máquinas poderiam aprender com dados. 
+O aspecto iterativo do aprendizado de máquina é importante porque, quando os modelos são expostos a novos dados, eles são capazes de se adaptar independentemente.
+Eles aprendem com computações anteriores para produzir decisões e resultados confiáveis, passíveis de repetição. Isso não é uma ciência nova
+– mas uma ciência que está ganhando um novo impulso.
+
+### Machine learning e inteligência artificial
+
+Enquanto a inteligência artificial (IA) pode ser definida, de modo amplo, como a ciência capaz de mimetizar as habilidades humanas,
+o machine learning é uma vertente específica da IA que treina máquinas para aprender com dados.
