@@ -26,3 +26,18 @@ coisas como os crescentes volume e variedade de dados disponíveis, o processame
 
 Tudo isso significa que é possível produzir, rápida e automaticamente, modelos capazes de analisar dados maiores e mais complexos, e entregar resultados mais rápidos e precisos 
 – mesmo em grande escala. E ao construir modelos precisos, uma organização tem mais chances de identificar oportunidades lucrativas – ou de evitar riscos desconhecidos.
+
+### O que é preciso para criar bons sistemas de machine learning?
+
+Capacidade de data preparation;
+Algoritmos – básicos e avançados;
+Processos automatizados e iterativos;
+Escalabilidade;
+Modelagem conjunta.
+
+### Você sabia?
+
+No aprendizado de máquina, um alvo é chamado de rótulo;
+Em estatística, um alvo é chamado de variável dependente;
+Uma variável em estatística é chamada de recurso em machine learning;
+Uma transformação em estatística é chamada de criação de recurso em machine learning.
