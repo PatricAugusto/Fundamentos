@@ -1,5 +1,45 @@
 ## Fundamentos do CSS
 
-CSS é uma linguagem de folha de estilo. CSS é o que você usa para estilizar seletivamente elementos HTML
+CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata)
+é uma linguagem de estilo usada para descrever a apresentação de um documento escrito em 1  uma linguagem de marcação,
+como HTML 2  ou XML. Em outras palavras, o CSS define como os elementos HTML devem ser exibidos na tela, no papel ou em outras mídias.   
 
-##
+Qual a função do CSS?
+
+Enquanto o HTML estrutura o conteúdo de uma página web (como textos, imagens e vídeos), o CSS cuida da aparência visual desse conteúdo, definindo:
+
+Cores: Cor de fundo, cor do texto, etc.
+Fontes: Tipo de fonte, tamanho, espaçamento, etc.
+Layout: Posicionamento dos elementos na página, margens, preenchimentos, etc.
+Responsividade: Adaptação do layout a diferentes tamanhos de tela (desktops, tablets, celulares).
+Animações e transições: Efeitos visuais para tornar a página mais interativa.
+
+Conceitos Fundamentais do CSS:
+
+Seletor: Define a qual elemento HTML o estilo será aplicado. Existem diversos tipos de seletores, como:
+
+Seletor de elemento: Seleciona todos os elementos de um determinado tipo (ex: p para parágrafos, h1 para títulos).
+Seletor de classe: Seleciona elementos com um determinado atributo de classe (ex: .destaque).
+Seletor de ID: Seleciona um elemento com um ID específico (ex: #meu-id).
+Seletor universal: Seleciona todos os elementos da página (*).
+Seletores combinados: Combinam diferentes tipos de seletores para maior precisão (ex: div p para selecionar parágrafos dentro de divs).
+
+Declaração: Define o estilo a ser aplicado. Uma declaração consiste em uma propriedade e um valor:
+
+Propriedade: Característica que será modificada (ex: color, font-size, background-color).
+Valor: Valor da propriedade (ex: red, 16px, #0000FF).
+
+Cascata: O "C" de CSS vem de "Cascading" (Cascata). 
+Isso significa que os estilos são aplicados em cascata, ou seja, em uma ordem de prioridade. 
+Se houver conflitos entre estilos diferentes, o navegador segue regras específicas para determinar qual estilo será aplicado. A ordem de prioridade geralmente é:
+
+Estilos inline (definidos diretamente no elemento HTML).
+Estilos internos (definidos dentro da tag <style> no cabeçalho do HTML).
+Estilos externos (definidos em um arquivo CSS separado e linkado ao HTML).
+
+Modelo de Caixa (Box Model): Cada elemento HTML é representado como uma caixa retangular, composta por:
+
+Conteúdo (Content): O conteúdo do elemento (texto, imagem, etc.).
+Padding: Espaço entre o conteúdo e a borda.
+Borda (Border): Linha que envolve o conteúdo e o padding.
+Margem (Margin): Espaço entre a borda e os elementos vizinhos.
