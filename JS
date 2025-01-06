@@ -1,1 +1,46 @@
 ## Fundamentos do JS
+
+JavaScript (frequentemente abreviado como JS) é uma linguagem de programação interpretada com tipagem dinâmica fraca,
+multiparadigma (suporta estilos de programação orientada a objetos, imperativa e funcional) e baseada em protótipos.
+É uma das tecnologias essenciais da World Wide Web, juntamente com HTML e CSS.
+
+Qual a função do JavaScript?
+
+Enquanto o HTML define a estrutura e o conteúdo de uma página web e o CSS define o estilo visual, o JavaScript adiciona interatividade e dinamismo. Ele permite:
+
+Manipular o DOM (Document Object Model): Modificar a estrutura, o conteúdo e o estilo de uma página web dinamicamente.
+Interagir com o usuário: Responder a eventos como cliques, movimentos do mouse, envio de formulários, etc.
+Criar animações e efeitos visuais: Tornar a página mais atraente e interativa.
+Comunicar com o servidor (AJAX): Enviar e receber dados do servidor sem recarregar a página.
+Desenvolver aplicações web completas (front-end e back-end): Usando frameworks e bibliotecas como React, Angular, Vue.js (front-end) e Node.js (back-end).
+
+Conceitos Fundamentais do JavaScript:
+
+Variáveis: Armazenam dados que podem ser modificados durante a execução do programa. São declaradas com var, let ou const.
+
+var: Escopo de função (hoisting).
+let: Escopo de bloco.
+const: Escopo de bloco, valor constante (não pode ser reatribuído).
+
+Tipos de Dados: JavaScript possui tipos de dados primitivos e objetos.
+
+Primitivos: number (números), string (textos), boolean (verdadeiro/falso), null (valor nulo), undefined (valor indefinido), symbol (símbolos) e bigint (inteiros grandes).
+Objetos: Coleções de pares chave-valor. Arrays são um tipo especial de objeto.
+
+Operadores: Realizam operações sobre os dados.
+
+Aritméticos: +, -, *, /, % (resto da divisão).
+Atribuição: =, +=, -=, *=, /=.
+Comparação: == (igual a), != (diferente de), === (igual e do mesmo tipo), !== (diferente e de tipo diferente), >, <, >=, <=.
+Lógicos: && (e), || (ou), ! (não).
+
+Estruturas de Controle: Controlam o fluxo de execução do programa.
+
+Condicionais: if, else if, else.
+Repetição (Loops): for, while, do...while.
+
+Funções: Blocos de código reutilizáveis.
+
+Objetos e Protótipos: JavaScript usa um modelo de protótipos para herança.
+
+Eventos: Ações que ocorrem no navegador, como cliques, carregamento da página, etc. JavaScript permite manipular esses eventos para criar interatividade.
