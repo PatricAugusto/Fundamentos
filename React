@@ -1,1 +1,69 @@
 ## Fundamentos do React
+
+Os fundamentos do React podem ser resumidos nos seguintes conceitos-chave:
+
+Componentes:
+
+Reusabilidade:
+Componentes são blocos de construção reutilizáveis que encapsulam a interface do usuário (UI) e sua lógica.
+Eles permitem dividir a UI em partes independentes e reutilizá-las em diferentes partes da aplicação. 
+Imagine um botão, um formulário ou até mesmo uma página inteira como componentes.
+
+Composição:
+Componentes podem ser combinados para criar interfaces mais complexas.
+Um componente pode conter outros componentes, formando uma árvore de componentes.
+
+JSX:
+O JSX é uma extensão de sintaxe para JavaScript que se assemelha ao HTML.
+Ele permite escrever a estrutura do componente de forma declarativa dentro do código JavaScript,
+tornando o código mais legível e intuitivo. Exemplo: <div className="container"><h1>Olá!</h1></div>
+. Isso é transformado em chamadas de função JavaScript pelo React.
+
+Estado (State):
+
+Dados mutáveis:
+O estado de um componente representa os dados mutáveis que afetam a renderização da UI.
+Quando o estado de um componente muda, o React atualiza automaticamente a UI para refletir as mudanças.
+
+Gerenciamento local:
+Cada componente pode ter seu próprio estado, gerenciado localmente. Isso permite isolar a lógica e os dados de cada componente.
+
+Hooks (useState):
+A partir do React 16.8, os hooks foram introduzidos para permitir o uso de estado e outros recursos do React em componentes funcionais.
+O useState é um hook que permite adicionar estado a um componente funcional.
+
+Propriedades (Props):
+
+Dados imutáveis:
+Props (abreviação de "properties") são dados passados de um componente pai para um componente filho.
+Eles são imutáveis dentro do componente filho, ou seja, o componente filho não pode modificar os props que recebe.
+
+Comunicação entre componentes:
+Props são a principal forma de comunicação entre componentes. Eles permitem passar dados e funções para os componentes filhos.
+
+Renderização Condicional:
+
+Lógica na UI: 
+O React permite renderizar diferentes partes da UI com base em condições. Isso é feito usando expressões JavaScript dentro do JSX.
+
+Operadores ternários e &&:
+É comum usar operadores ternários (condicao ? valorSeVerdadeiro : valorSeFalso)
+ou o operador && (renderiza o elemento à direita se a condição à esquerda for verdadeira) para renderização condicional.
+
+Listas e Chaves (Keys):
+Renderizando coleções: Ao renderizar listas de elementos,
+é necessário fornecer uma chave única (key) para cada elemento. 
+Isso ajuda o React a identificar os elementos de forma eficiente e otimizar a renderização.
+
+Performance:
+As chaves melhoram a performance do React ao atualizar listas dinâmicas.
+
+Ciclo de Vida dos Componentes (em componentes de classe - menos comum com o uso de Hooks):
+(Em desuso com Hooks): Em componentes de classe, existem métodos de ciclo de vida que permitem controlar o comportamento do componente em diferentes momentos, 
+como montagem, atualização e desmontagem.
+Com o uso de Hooks, a lógica de ciclo de vida é gerenciada de forma diferente, principalmente com o useEffect.
+
+Hooks (a partir do React 16.8):
+Reaproveitamento de lógica com estado: Hooks são funções que permitem "conectar" (em inglês, "hook into") o estado do React e o ciclo de vida em componentes funcionais.
+useState, useEffect, useContext,
+etc.: Os hooks mais comuns são useState (para gerenciar estado), useEffect (para lidar com efeitos colaterais, como chamadas de API), e useContext (para acessar o contexto).
